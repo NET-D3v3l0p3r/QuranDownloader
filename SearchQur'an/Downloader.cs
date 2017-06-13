@@ -123,6 +123,7 @@ namespace SearchQur_an
                         {
                             Surahs[Surahs.Keys.ElementAt(increment)].Add(number, new List<string>());
                             Surahs[Surahs.Keys.ElementAt(increment)][number].Add("---Surah Number " + number + "---");
+                            Surahs[Surahs.Keys.ElementAt(increment)][number].Add("Bismi 'llahi 'r-rahmani 'r-rahimi");
                             Surahs[Surahs.Keys.ElementAt(increment)][number].Add(ayatNumber + ". " + line);
                         }
                         else if (increment < Surahs.Count) Surahs[Surahs.Keys.ElementAt(increment)][number].Add(ayatNumber + ". " + line);
