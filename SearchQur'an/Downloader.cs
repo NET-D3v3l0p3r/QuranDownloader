@@ -98,6 +98,7 @@ namespace SearchQur_an
                 string[] lines = text.Value;
 
                 int increment = 0;
+                int ayatNumber = 1;
                 bool beginOperation = false;
 
 
@@ -113,12 +114,18 @@ namespace SearchQur_an
                     if (beginOperation)
                     {
                         if (increment > Surahs.Count)
+                        {
                             increment = 0;
-
+                            ayatNumber++;
+                        }
                         line = Utilities.ReadUntilEOF(line, "<TD>", "</TD>");
                         if (increment < Surahs.Count && !Surahs[Surahs.Keys.ElementAt(increment)].Keys.Contains(number))
+                        {
                             Surahs[Surahs.Keys.ElementAt(increment)].Add(number, new List<string>());
-                        else if (increment < Surahs.Count) Surahs[Surahs.Keys.ElementAt(increment)][number].Add(line);
+                            Surahs[Surahs.Keys.ElementAt(increment)][number].Add("---Surah Number " + number + "---");
+                            Surahs[Surahs.Keys.ElementAt(increment)][number].Add(ayatNumber + ". " + line);
+                        }
+                        else if (increment < Surahs.Count) Surahs[Surahs.Keys.ElementAt(increment)][number].Add(ayatNumber + ". " + line);
 
                         increment++;
                     }
@@ -152,6 +159,7 @@ namespace SearchQur_an
             foreach (var surah in Surahs)
             {
                 Directory.CreateDirectory(folder + @"\" + surah.Key);
+                
                 foreach (var item in surah.Value)
                 {
                     int number = item.Key;

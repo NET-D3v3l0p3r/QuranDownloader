@@ -15,3 +15,11 @@ C:\Users\DEV\Desktop\Main\SearchQur'an\SearchQur'an\obj\Debug\SearchQur_an.Prope
 C:\Users\DEV\Desktop\Main\SearchQur'an\SearchQur'an\obj\Debug\SearchQur'an.csproj.GenerateResource.Cache
 C:\Users\DEV\Desktop\Main\SearchQur'an\SearchQur'an\obj\Debug\SearchQur'an.exe
 C:\Users\DEV\Desktop\Main\SearchQur'an\SearchQur'an\obj\Debug\SearchQur'an.pdb
+C:\Users\DEV\Documents\GitHub\QuranDownloader\SearchQur'an\bin\Debug\SearchQur'an.exe.config
+C:\Users\DEV\Documents\GitHub\QuranDownloader\SearchQur'an\bin\Debug\SearchQur'an.exe
+C:\Users\DEV\Documents\GitHub\QuranDownloader\SearchQur'an\bin\Debug\SearchQur'an.pdb
+C:\Users\DEV\Documents\GitHub\QuranDownloader\SearchQur'an\obj\Debug\SearchQur'an.csprojResolveAssemblyReference.cache
+C:\Users\DEV\Documents\GitHub\QuranDownloader\SearchQur'an\obj\Debug\SearchQur_an.Properties.Resources.resources
+C:\Users\DEV\Documents\GitHub\QuranDownloader\SearchQur'an\obj\Debug\SearchQur'an.csproj.GenerateResource.Cache
+C:\Users\DEV\Documents\GitHub\QuranDownloader\SearchQur'an\obj\Debug\SearchQur'an.exe
+C:\Users\DEV\Documents\GitHub\QuranDownloader\SearchQur'an\obj\Debug\SearchQur'an.pdb
